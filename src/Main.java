@@ -49,8 +49,11 @@ public class Main {
         if(l1==l2){
             System.out.println("two line are equal in length");
         }
-        else {
-            System.out.println("two line are not equal in length");
+        else if(l1>l2) {
+            System.out.println("length of first line is greater than second i.e "+l1);
+        }
+        else{
+            System.out.println("length of second line is greater than first i.e "+l2);
         }
 
     }
